@@ -1,0 +1,48 @@
+.conteiner{
+    background-color: rgb(1,65,65);
+    height: 715px;
+    width: auto;
+}
+
+.text1{
+    display: flex;
+    color: rgb(22, 104, 104);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.text2{
+        display: flex;
+        color: rgb(255, 255, 255);
+        padding-left: 50px;
+        height: 150px;
+        width: 350px;
+}
+
+.img{
+    padding-left: 50px;
+    height: 50px;
+    width: 50px;
+
+}
+
+.conteiner2{
+    display: flex;
+    gap: 20px;
+}
+.text3{
+    color: rgb(22, 104, 104);
+}
+
+.text4{
+color: rgb(255, 255, 255);
+}
+
+@media (min-width:300px) and (max-width:600px) {
+    .text{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
